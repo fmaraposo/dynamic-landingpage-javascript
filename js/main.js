@@ -52,6 +52,7 @@ function setBgGreet() {
     //Evening
     document.body.style.backgroundImage = "url('../img/night.JPG')".toLocaleLowerCase();
     document.body.style.backgroundSize = 'cover';
+    document.body.style.backgroundPosition = 'center';
     greeting.textContent = 'Good Night';
     document.body.style.color = 'white';
   }
